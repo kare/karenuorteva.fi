@@ -1,0 +1,69 @@
+
+@import bower_components/bootstrap/scss/functions
+@import custom
+
+// bower:scss
+@import bower_components/bootstrap/scss/bootstrap.scss
+@import bower_components/font-awesome/scss/font-awesome.scss
+// endbower
+
+body, html
+  height: 100%
+header
+  padding: 154px 0 100px
+@media (min-width: 992px)
+  header
+    padding: 156px 0 100px
+section
+  padding: 150px 0
+header, section
+  height: 100vh
+
+$home-gradient: linear-gradient(to bottom right, rgba(0, 47, 75, 0.5), rgba(220, 66, 37, 0.5))
+.bg-home
+  background-image: $home-gradient, url('../images/home-xs.jpg')
+  background-position: center center
+  background-size: cover
+  @include media-breakpoint-up(sm)
+    background-image: $home-gradient, url('../images/home-sm.jpg')
+  @include media-breakpoint-up(md)
+    background-image: $home-gradient, url('../images/home-md.jpg')
+  @include media-breakpoint-up(lg)
+    background-image: $home-gradient, url('../images/home-lg.jpg')
+  @include media-breakpoint-up(xl)
+    background-image: $home-gradient, url('../images/home-xl.jpg')
+
+$about-gradient: linear-gradient(to bottom, rgba(227, 227, 227, 0.5), rgba(183, 183, 183, 0.5))
+.bg-about
+  background-image: $about-gradient, url('../images/about-xs.jpg')
+  background-position: center center
+  background-size: cover
+  @include media-breakpoint-up(sm)
+    background-image: $about-gradient, url('../images/about-sm.jpg')
+  @include media-breakpoint-up(md)
+    background-image: $about-gradient, url('../images/about-md.jpg')
+  @include media-breakpoint-up(lg)
+    background-image: $about-gradient, url('../images/about-lg.jpg')
+  @include media-breakpoint-up(xl)
+    background-image: $about-gradient, url('../images/about-xl.jpg')
+
+.bg-contact
+  background-image: url('../images/contact-xs.jpg')
+  background-position: center center
+  background-size: cover
+  @include media-breakpoint-up(sm)
+    background-image: url('../images/contact-sm.jpg')
+  @include media-breakpoint-up(md)
+    background-image: url('../images/contact-md.jpg')
+  @include media-breakpoint-up(lg)
+    background-image: url('../images/contact-lg.jpg')
+  @include media-breakpoint-up(xl)
+    background-image: url('../images/contact-xl.jpg')
+  .email
+    height: 100%
+#contact h2
+  display: none
+.display-h
+  text-shadow: 1px 1px #000
+  font-weight: normal
+  font-size: 8vw
