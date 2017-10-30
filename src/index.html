@@ -5,22 +5,13 @@
   <meta charset="utf-8">
   <meta name="description" content="Kare Nuorteva's homepage">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="/app/images/apple-touch-icon.png" rel="apple-touch-icon" />
-  <link href="/app/images/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
-  <link href="/app/images/apple-touch-icon-167x167.png" rel="apple-touch-icon" sizes="167x167" />
-  <link href="/app/images/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
-  <link href="/app/images/icon-hires.png" rel="icon" sizes="192x192" />
-  <link href="/app/images/icon-normal.png" rel="icon" sizes="128x128" />
+  <link href="/static/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="/static/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+  <link href="/static/apple-touch-icon-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+  <link href="/static/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+  <link href="/static/icon-hires.png" rel="icon" sizes="192x192" />
+  <link href="/static/icon-normal.png" rel="icon" sizes="128x128" />
   <title>Kare Nuorteva</title>
-
-  <!-- build:css styles/vendor.css -->
-  <!-- bower:css -->
-  <!-- endbower -->
-  <!-- endbuild -->
-
-  <!-- build:css styles/main.css -->
-  <link rel="stylesheet" href="styles/main.css">
-  <!-- endbuild -->
   <script>
     window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
     ga('create', 'UA-60758514-1', 'auto');
@@ -95,28 +86,33 @@
 
   <header id="home" class="container-fluid bg-home">
     <div class="row">
-      <div class="col-12 text-center text-white">
+      <div class="col-1"></div>
+      <div class="col-10 text-center text-white">
         <h1 class="display-h">Kare Nuorteva's Homepage</h1>
       </div>
+      <div class="col-1"></div>
     </div>
   </header>
 
   <section id="about" class="container-fluid bg-about">
     <div class="row">
       <div class="col-md-4 col-lg-4 col-xl-5"></div>
-      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2 text-center">
-        <h2>About</h2>
-        <p>
-          I'm a hands-on software architect/full stack developer specialized in
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+        <h2 class="text-center">About</h2>
+        <p class="text-center">
+          I'm a freelancing hands-on software architect/full stack developer specialized in
           <a href="https://golang.org">Go programming language</a> and a
-          <a href="https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs">Plan 9</a> hobbyist. I run a
-          <a href="https://9p.fi">Plan 9 server</a> and a Go vanity domain (kkn.fi) for my own
-          <a href="https://github.com/kare?utf8=✓&tab=repositories&q=&type=&language=go">Go libraries and applications</a>.
+          <a href="https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs">Plan 9</a> hobbyist.
         </p>
+        <h4 class="text-center">Projects</h4>
+        <ul>
+          <li><a href="https://9p.fi">9p.fi</a></li>
+          <li>Go vanity domain kkn.fi (<a href="https://github.com/kare?utf8=✓&tab=repositories&q=&type=&language=go">GitHub</a>)</li>
+        </ul>
       </div>
     </div>
     <div class="col-md-4 col-lg-4 col-xl-5"></div>
-  </section>
+</section>
 
   <section id="contact" class="container-fluid bg-contact">
     <div class="row align-items-center email">
@@ -137,23 +133,6 @@
       <p class="text-center">Made with ❤️ by Kare Nuorteva 2017</p>
     </div>
   </footer>
-  <!-- build:js scripts/vendor.js -->
-  <script src="/bower_components/jquery/dist/jquery.js"></script>
-  <script src="/bower_components/popper.js/dist/umd/popper.js"></script>
-  <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
-  <script src="/bower_components/jquery.easing/js/jquery.easing.js"></script>
-  <!-- bower:js -->
-  <!-- endbower -->
-  <!-- endbuild -->
-
-  <!-- build:js scripts/plugins.js -->
-  <script src="/bower_components/bootstrap/js/dist/util.js"></script>
-  <script src="/bower_components/bootstrap/js/dist/scrollspy.js"></script>
-  <!-- endbuild -->
-
-  <!-- build:js scripts/main.js -->
-  <script src="scripts/main.js"></script>
-  <!-- endbuild -->
 </body>
 
 </html>
