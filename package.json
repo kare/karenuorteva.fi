@@ -2,6 +2,17 @@
   "private": true,
   "author": "Kare Nuorteva <kare.nuorteva@me.com>",
   "name": "karenuorteva.fi",
+  "version": "1.0.0",
+  "homepage": "https://github.com/kare/karenuorteva.fi",
+  "bugs": {
+    "url" : "https://github.com/kare/karenuorteva.fi/issues",
+    "email" : "kare.nuorteva@me.com"
+  },
+  "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/kare/karenuorteva.fi"
+  },
   "scripts": {
     "dev": "webpack-dev-server",
     "start": "npm run dev",
