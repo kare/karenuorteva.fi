@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: http://karenuorteva.fi/sitemap.xml
+Sitemap: https://karenuorteva.fi/sitemap.xml
