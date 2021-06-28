@@ -37,7 +37,7 @@
     "jquery": "^3.2.1",
     "jquery.easing": "^1.4.1",
     "node-sass": "^4.5.3",
-    "popper.js": "^1.14.1",
+    "popper.js": "^1.16.1",
     "postcss-loader": "^2.0.8",
     "precss": "^2.0.0",
     "sass-loader": "^6.0.6",
