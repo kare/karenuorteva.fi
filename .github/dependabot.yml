@@ -1,12 +1,37 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: daily
-    time: "03:00"
-  open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: elliptic
-    versions:
-    - 6.5.3
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: daily
+      time: "03:00"
+      timezone: Europe/Helsinki
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: build
+      include: scope
+    reviewers:
+      - kare
+    assignees:
+      - kare
+    labels:
+      - npm
+      - dependencies
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+      time: "03:00"
+      timezone: Europe/Helsinki
+    open-pull-requests-limit: 10 
+    commit-message:
+      prefix: ci
+      include: scope
+    reviewers:
+      - kare
+    assignees:
+      - kare
+    labels:
+      - github-actions
+      - dependencies
+
